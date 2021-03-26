@@ -1,0 +1,136 @@
+
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-title-color: #fff; 
+    --primary-title-color: #212121;
+    --accent-color: #2196F3;
+    --footer-bckg-color: #2F303A;
+    --primary-bg-color: #E5E5E5;
+}
+
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Helvetica, Ubuntu, noto, arial, sans-serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+
+}
+.list{
+    list-style: none;
+}
+
+.page-header{
+    background-color: var(--secondary-title-color);
+    border-bottom: 1px solid #2196F3;
+    font-size: 14px;
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;   
+    color: var(--primary-title-color); 
+}
+
+.web-logo{
+    color: var(--accent-color);
+}
+
+.page-header a:hover,
+.page-header:focus{
+  color: var(--accent-color);  
+}
+
+.hero{
+    background-color: var(--footer-bckg-color);
+}
+.hero-title{
+    color: var(--secondary-title-color);
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+
+}
+.text{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.name-title{
+    color: var(--primary-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.post-item{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer{
+    background-color: var(--footer-bckg-color);
+    color: var(--secondary-title-color);
+}
+
+a {
+    color: var(--primary-title-color);
+    text-decoration: none;
+}
+
+.footer a{
+    /* color: var(--secondary-title-color); */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+ a:hover,
+ a:focus{
+    color: var(--accent-color);
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover{
+    color: var(--secondary-title-color);
+    background-color: var(--accent-color);
+}
+
+/* portfolio.html */
+
+.list-item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
+}
+
+.text-list-item{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
